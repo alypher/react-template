@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Project to help to start a new project only within necessary packages",
   "homepage": "react-template.alypher.com.br",
-  "license":"MIT",
+  "license": "MIT",
   "author": "Alypher Mansano <alypher@gmail.com> (alypher.com)",
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
   "title": "React Template",
   "scripts": {
     "build": "webpack --mode production",
-    "server": "webpack serve --mode development"
+    "server": "webpack serve --mode development",
+    "storybook": "start-storybook -p 6006"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.14",
@@ -25,11 +26,15 @@
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
     "@hot-loader/react-dom": "^17.0.1",
+    "@storybook/addon-actions": "^6.2.2",
+    "@storybook/addon-essentials": "^6.2.2",
+    "@storybook/addon-links": "^6.2.2",
+    "@storybook/react": "^6.2.2",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.0",
     "html-webpack-plugin": "^5.3.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-hot-loader": "^4.13.0",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
